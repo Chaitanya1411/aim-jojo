@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url("aimimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    
+    color: #fff;
+     /* Add your background image here if needed */
+}
+
+#game-container {
+    text-align: center;
+}
+
+#score-container {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 20px auto;
+}
+
+#start-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#target {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('pngegg.png'); /* Replace with your image path */
+    background-size: contain; /* Ensures the image scales inside the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+    display: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
